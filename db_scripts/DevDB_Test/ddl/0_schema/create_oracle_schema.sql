@@ -1,5 +1,7 @@
 alter session set "_ORACLE_SCRIPT"=true;  
 
+drop user "DEVDB_TEST" CASCADE; 
+
 -- USER SQL
 CREATE USER DevDB_Test IDENTIFIED BY DevDB_Test  
 DEFAULT TABLESPACE USERS

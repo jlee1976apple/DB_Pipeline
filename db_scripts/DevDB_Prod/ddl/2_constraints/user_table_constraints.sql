@@ -1,0 +1,1 @@
+ALTER TABLE devdb_prod."USERS" ADD CONSTRAINT users_fk1 FOREIGN KEY (dept_id) REFERENCES devdb_test.department ("ID");

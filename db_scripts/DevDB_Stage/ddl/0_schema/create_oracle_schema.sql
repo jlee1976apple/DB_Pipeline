@@ -1,5 +1,7 @@
 alter session set "_ORACLE_SCRIPT"=true;  
 
+drop user "DevDB_Stage" CASCADE; 
+
 -- USER SQL
 CREATE USER DevDB_Stage IDENTIFIED BY DevDB_Stage  
 DEFAULT TABLESPACE USERS

@@ -1,5 +1,7 @@
 alter session set "_ORACLE_SCRIPT"=true;  
 
+drop user "DevDB_Prod" CASCADE; 
+
 -- USER SQL
 CREATE USER DevDB_Prod IDENTIFIED BY DevDB_Prod  
 DEFAULT TABLESPACE USERS

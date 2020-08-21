@@ -1,0 +1,5 @@
+CREATE TABLE devdb_test.county (
+  "ID" NUMBER NOT NULL,
+  "NAME" VARCHAR2(55 BYTE) NOT NULL,
+  CONSTRAINT county_pk PRIMARY KEY ("ID")
+);

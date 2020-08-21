@@ -1,0 +1,9 @@
+CREATE TABLE devdb_test."USERS" (
+  "ID" NUMBER NOT NULL,
+  first_name VARCHAR2(255 BYTE) NOT NULL,
+  last_name VARCHAR2(255 BYTE) NOT NULL,
+  username VARCHAR2(55 BYTE),
+  email VARCHAR2(55 BYTE),
+  dept_id NUMBER,
+  CONSTRAINT users_pk PRIMARY KEY ("ID")
+);
