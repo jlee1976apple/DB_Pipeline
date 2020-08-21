@@ -6,7 +6,7 @@ CREATE TABLE department (
   CONSTRAINT department_pk PRIMARY KEY ("ID")
 );
 
--- insert statements, added more comments --
+-- insert statements, added more comments, go ahead --
 Insert into DEPARTMENT (ID,NAME) values (1,'Accounting');
 Insert into DEPARTMENT (ID,NAME) values (2,'Business');
 Insert into DEPARTMENT (ID,NAME) values (3,'Consulting');
